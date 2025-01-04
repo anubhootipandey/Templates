@@ -1,12 +1,12 @@
 
 document.querySelector('.btn').addEventListener('click', function() {
-    window.location.href = 'https://docs.google.com/document/d/1TTUpqrLpelKZEjPq5E53xD0tT-MKIaOdOZaEfs5242c';
+    window.location.href = '';
 });
 
 
 document.addEventListener("DOMContentLoaded", function() {
     const textElement = document.querySelector("#about h1 span");
-    const textToType = "Anubhooti Pandey";
+    const textToType = "Your Name";
     let index = 0;
 
     function typeText() {
