@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    color: #000;
+}
+
+.header-container{
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header-container h1{
+    font-size: 38px;
+
+}
+
+.header-container .nav-items, .header-container .nav-items .items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    gap: 40px;
+}
+
+.header-container .nav-items .items li a{
+    text-decoration: none;
+    color: #000;
+}
+
+.header-container .nav-items button{
+    padding: 10px 20px;
+    background-color: white;
+    border: 1px solid #000;
+    font-size: 15px;
+    border-radius: 6px;
+}
+
+.main-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 40px;
+    justify-content: space-evenly;
+}
+
+.main-container .container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    text-align: center;
+}
+
+.main-container .container .btn button{
+    padding: 10px 20px;
+    font-weight: 600;
+    background-color: white;
+    border: 2px solid #000;
+    font-size: 15px;
+    margin-top: 10px;
+    border-radius: 6px;
+}
+
+.main-container .container p{
+    font-weight: 550;
+    color: rgb(52, 53, 53);
+    font-size: 18px;
+}
+
+.main-container .container h2{
+    font-size: 60px;
+}
+
